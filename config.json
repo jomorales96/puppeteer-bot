@@ -1,0 +1,18 @@
+{
+    "host": "https://bf-up-9-3sc.dev.local",
+
+    "__comment__":
+        "IF YOU INCLUDE MANY STATES HERE, YOU COULD GENERATE AN ERROR IN RUNTIME BECAUSE THERE WILL BE A LOT OF ITEMS FOR THE PAGE TO LOAD",
+    "states":[
+        "Alberta"
+    ],
+    "item_types": [
+        { "key": "Metro", "img_src": "/temp/iconcache/apps/16x16/map.png", "showInMenu": true },
+        { "key": "City", "img_src": "/temp/iconcache/apps/16x16/maps.png", "showInMenu": false },
+        { "key": "Community", "img_src": "/temp/iconcache/apps/16x16/police light.png", "showInMenu": true },
+        { "key": "Neighborhood", "img_src": "/temp/iconcache/applications/16x16/exchange.png", "showInMenu": true },
+        { "key": "Plan", "img_src": "/temp/iconcache/people/16x16/pawn.png", "showInMenu": true },
+        { "key": "MIR", "img_src": "/temp/iconcache/office/16x16/home.png", "showInMenu": true }
+    ],
+    "tries": 2
+}
